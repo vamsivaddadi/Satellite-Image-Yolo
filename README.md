@@ -2,7 +2,7 @@
 
 This repository contains of the script for the performaing building predictions on the satellite image using the weights and image provided.
 
-As the image is too large the model may not perform well as it might over look the edges in the image so the image has been divided into patches for better predictions of the size 512*512*3 with a consider overlap to avoid any loss of edges in the images which might mis-classify.
+As the image is too large the model may not perform well as it might over look the edges in the image so the image has been divided into patches for better predictions of the size (512,512,3) with a consider overlap to avoid any loss of edges in the images which might mis-classify.
 
 For this project **Ultralytics** library is used.
 
